@@ -23,7 +23,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-self: center;
-    width: 775px;
+    width: 56vw;
+    margin: 6vw 0;
 }
 
 button:hover{
@@ -74,7 +75,7 @@ button:hover{
 }
 
 #menu a{
-    padding: 4px 8px;
+    padding: 10px 14px;
     border-radius: 6px;
     transition: all 0.25s;
 }
@@ -218,8 +219,20 @@ button:hover{
     align-items: start;
 }
 
+#blog_banner_image{
+    width: 55vw;
+    height: 32vw;
+}
+
+#blog_banner_image img{
+    width: 100%;
+    height: 100%;
+}
+
 #blog_container_h1{
-    width: 50%;
+    display: flex;
+    align-self: center;
+    width: 35%;
     font-size: 1.5vw;
     height: auto;
     margin: 0px 5vw;
@@ -241,6 +254,56 @@ button:hover{
 }
 
 /*Blog Page End*/
+
+/* Members Page Start*/
+
+.member-container01{
+    display: flex;
+    justify-content: start;
+}
+
+.member-container02{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.member-container02 p, .member-container02 h2{
+    text-align: end;
+}
+
+.member-container01, .member-container02{
+    margin: 1.3vw 0;
+}
+.member-img{
+    width: 20vw;
+}
+
+.member-img img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.member-container h1{
+    font-size: 5vw;
+    margin: 8vw 0;
+}
+
+.member-text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    margin: 0 4vw;
+    font-size: 1.5vw;
+}
+
+.member-text p{
+    flex-wrap: wrap;
+    font-size: 2vw;
+}
+
+/* Members Page End*/
 
 #footer{
     background-color: #496326;
